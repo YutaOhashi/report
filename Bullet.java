@@ -13,7 +13,7 @@ public class Bullet {
     public void update() {
         y -= speed;
     }
-
+    
     public void draw(Graphics g) {
         g.setColor(Color.CYAN);
         g.fillOval(x - size/2, y - size/2, size, size);
